@@ -1,11 +1,12 @@
 (ns hire-doer.main
   (:require [helpers.util :as util]
-            [helpers.components :as comps]
+            ;[helpers.components :as comps]
             [enfocus.core :as ef]
             [clojure.browser.repl :as repl])
   (:require-macros [enfocus.macros :as em])
   (:use [jayq.core :only [$ css inner]])
-  (:use-macros [helpers.macros :only [with-user]])) 
+  ;(:use-macros [helpers.macros :only [with-user]])
+  ) 
 
 ;; (repl/connect "http://localhost:9000/repl")
 
