@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Metro UI CSS">
+    <meta name="author" content="Sergey Pimenov">
+    <meta name="keywords" content="windows 8, modern style, Metro UI, style, modern, css, framework">
+
+    <link href="/css/modern.css" rel="stylesheet">
+    <link href="/css/modern-responsive.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet" type="text/css">
+    <link href="/css/prettify.css" rel="stylesheet" type="text/css">
+
+    <script src="/js/ga.js" async="" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery-1.js"></script>
+    <script type="text/javascript" src="/js/jquery_002.js"></script>
+    <script type="text/javascript" src="/js/moment.js"></script>
+    <script type="text/javascript" src="/js/moment_langs.js"></script>
+
+    <script type="text/javascript" src="/js/dropdown.js"></script>
+    <script type="text/javascript" src="/js/accordion.js"></script>
+    <script type="text/javascript" src="/js/buttonset.js"></script>
+    <script type="text/javascript" src="/js/carousel.js"></script>
+    <script type="text/javascript" src="/js/input-control.js"></script>
+    <script type="text/javascript" src="/js/pagecontrol.js"></script>
+    <script type="text/javascript" src="/js/rating.js"></script>
+    <script type="text/javascript" src="/js/slider.js"></script>
+    <script type="text/javascript" src="/js/tile-slider.js"></script>
+    <script type="text/javascript" src="/js/tile-drag.js"></script>
+    <script type="text/javascript" src="/js/calendar.js"></script>
+
+    <script src="/js/jquery-1.9.1.min.js"></script>
+    <script src="/js/jquery-ui-1.10.2.custom.min.js"></script>
+    <script src="/js/helpers.js"></script>
+
+    <title>Try Clojure Online</title>
+  </head>
+  <body class="metrouicss" onload="prettyPrint()">
+    <script type="text/javascript" src="/js/main.js"></script>
+
+    <div class="page">
+      <div class="nav-bar">
+	<div class="nav-bar-inner padding10">
+          <span class="pull-menu"></span>
+	  
+          <a href="/"><span class="element brand">
+              Try Clojure
+          </span></a>
+	  
+	  <div class="divider"></div>
+
+	  <ul class="menu">
+            <li><a onclick="hire_doer.main.show_history();" href="#">History</a></li>
+	    <!-- <li><a href="/article/new">Create article</a></li> -->
+          </ul>
+
+	</div>
+      </div>
+    </div>
+    
+    <div id="repl" class="page">
+      <div class="page-region-content">
+
+	<div class="row" id="item-edit">
+          <div class="span12">
+	    <div class="hero-unit">
+	      <textarea id="content" cols="40" rows="5"></textarea><br/>
+	    </div>
+	    <a onclick="hire_doer.main.show_result();" class="button bg-color-green fg-color-white" href="#">Eval</a>
+	    <a onclick="hire_doer.main.save_code();" href="#" class="button bg-color-red fg-color-white">Save code</a>
+	  </div>
+	</div>
+	
+          <div id="result-box"  style="display:none">
+            <div class="span12">
+	      <div class="hero-unit">
+		<h2>Result:</h2>
+		<span id="result">
+		</span>  
+	      </div>
+	    </div>
+	  </div>
+
+      </div>
+    </div>
+
+    <div class="page">
+      <div id="insert-here" class="page-region-content"></div>
+    </div>
+    
+    <div id="examples" style="display:none">
+      <div class="span12">
+	<div class="hero-unit">
+	  <h2></h2>
+	  <span></span>  
+	</div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="nav-bar">
+    	<div class="nav-bar-inner padding10">
+    	  <span class="element">
+    	    Styled with <a class="fg-color-white" href="http://metroui.org.ua">Metro UI CSS</a>
+    	  </span>
+    	</div>
+      </div>
+    </div>
+       
+</body></html>
